@@ -1,0 +1,103 @@
+.header {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  width: 600px;
+}
+.header__btn {
+  margin-left: 20px;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.header__btn-sun {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+}
+.header__btn-moon {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+}
+
+.sun {
+  display: block;
+}
+
+.moon {
+  display: none;
+}
+
+.hero {
+  position: relative;
+}
+.hero__text {
+  margin-top: 20px;
+  font-family: sans-serif, Roboto;
+  color: #000;
+  font-weight: 500;
+}
+.hero__wrap {
+  width: 650px;
+}
+.hero__title {
+  font-family: sans-serif, Roboto;
+  font-weight: 400;
+  text-align: center;
+  font-size: 40px;
+  color: #000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+body {
+  color: #eee;
+  background: #fff;
+}
+body.dark-theme {
+  color: #eee;
+  background: #121212;
+}
+body.dark-theme a {
+  color: #eee;
+}
+body.dark-theme .hero__text {
+  color: #fff;
+}
+body.dark-theme .hero__title {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-family: sans-serif, Roboto;
+}
